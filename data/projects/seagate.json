@@ -1,0 +1,20 @@
+{
+  "slug": "seagate",
+  "name": "Seagate",
+  "developer": "Emaar",
+  "community": "Mina Rashid",
+  "type": "Apartment",
+  "bedrooms": "1, 2 & 3 bedroom apartments",
+  "image": "seagate.webp",
+  "tag": "Waterfront living",
+  "description": "A four-building residential collection in Rashid Yachts & Marina, in the Mina Rashid area. The project sits beside a waterfront promenade with marina and skyline outlooks.",
+  "highlights": [
+    "Waterfront promenade",
+    "Community park",
+    "Retail and dining"
+  ],
+  "source": "https://www.emaar.com/en/properties/seagate",
+  "brokerSource": "https://albaselrealestate.ae/estate_property/seagate-emaar-mina-rashid-dubai-photos-brochure/",
+  "handover": null,
+  "paymentPlan": null
+}

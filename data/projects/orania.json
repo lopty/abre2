@@ -1,0 +1,20 @@
+{
+  "slug": "orania",
+  "name": "Orania",
+  "developer": "Emaar",
+  "community": "The Valley",
+  "type": "Townhouse",
+  "bedrooms": "3 & 4 bedroom townhouses",
+  "image": "orania.webp",
+  "tag": "Room to grow",
+  "description": "Three and four-bedroom townhouses in The Valley, with two architectural styles and access to linear parks. Compare the layout, plot orientation and journey to work when choosing a home here.",
+  "highlights": [
+    "Two architectural styles",
+    "Linear parks",
+    "Family-focused setting"
+  ],
+  "source": "https://www.emaar.com/en/properties/orania-at-the-valley",
+  "brokerSource": "https://albaselrealestate.ae/estate_property/orania-emaar-the-valley-dubai/",
+  "handover": null,
+  "paymentPlan": null
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "new-property",
+  "title": "",
+  "status": "draft",
+  "purpose": "buy",
+  "type": "Apartment",
+  "community": "",
+  "project": "",
+  "developer": "",
+  "price": null,
+  "bedrooms": null,
+  "bathrooms": null,
+  "size": null,
+  "description": "",
+  "images": [],
+  "floorPlan": null,
+  "permitNumber": "",
+  "permitQr": "",
+  "agentName": "",
+  "agentBrn": "",
+  "source": "",
+  "verifiedAt": null
+}

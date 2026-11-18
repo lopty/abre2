@@ -1,0 +1,22 @@
+{
+  "slug": "hillsedge",
+  "name": "Hillsedge",
+  "community": "Dubai Hills Estate",
+  "bedrooms": "1 & 2 bedroom apartments",
+  "tag": "Developer launch",
+  "description": "Apartments in Dubai Hills Estate overlooking Hillside Park and the Dubai skyline. The developer describes indoor and outdoor fitness facilities, swimming pools and children’s play areas. Confirm the specification attached to the chosen unit.",
+  "highlights": [
+    "Hillside Park setting",
+    "Indoor and outdoor gyms",
+    "Swimming pools and play areas"
+  ],
+  "source": "https://www.emaar.com/en/properties/hillsedge-at-dubai-hills-estate",
+  "developer": "Emaar",
+  "type": "Apartment",
+  "image": "hillsedge.webp",
+  "brokerSource": null,
+  "handover": null,
+  "paymentPlan": null,
+  "launch": true,
+  "reviewedAt": "2026-11-18"
+}

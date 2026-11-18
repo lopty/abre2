@@ -1,0 +1,22 @@
+{
+  "slug": "greencrest",
+  "name": "Greencrest",
+  "community": "Dubai Hills Estate",
+  "bedrooms": "1, 2 & 3 bedroom apartments",
+  "tag": "Developer launch",
+  "description": "An apartment project beside the golf-course landscape of Dubai Hills Estate. Emaar describes contemporary residences with balconies and open terraces. Request the current release documents to compare the actual unit and its outlook.",
+  "highlights": [
+    "Golf-course setting",
+    "Balconies and open terraces",
+    "Apartment collection"
+  ],
+  "source": "https://www.emaar.com/en/properties/greencrest-at-dubai-hills-estate",
+  "developer": "Emaar",
+  "type": "Apartment",
+  "image": "greencrest.webp",
+  "brokerSource": null,
+  "handover": null,
+  "paymentPlan": null,
+  "launch": true,
+  "reviewedAt": "2026-11-18"
+}

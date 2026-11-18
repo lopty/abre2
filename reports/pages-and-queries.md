@@ -1,0 +1,61 @@
+# Pages and target queries
+
+- / → Dubai Property, with a Personal Perspective | Al Basel
+- /projects/ → Explore Dubai projects | Al Basel
+- /off-plan/ → Off-plan property in Dubai | Al Basel
+- /buy/ → Buy a property in Dubai | Al Basel
+- /rent/ → Rent a Property in Dubai | Al Basel
+- /projects/park-field/ → Park Field, Dubai Hills Estate | Al Basel
+- /projects/elie-saab/ → Elie Saab, Arabian Ranches 3 | Al Basel
+- /projects/seagate/ → Seagate, Mina Rashid | Al Basel
+- /projects/orania/ → Orania, The Valley | Al Basel
+- /projects/lime-gardens/ → Lime Gardens, Dubai Hills Estate | Al Basel
+- /projects/greencrest/ → Greencrest, Dubai Hills Estate | Al Basel
+- /projects/hillsedge/ → Hillsedge, Dubai Hills Estate | Al Basel
+- /projects/fior-1/ → Fior 1, Mina Rashid | Al Basel
+- /developers/ → Dubai Property Developers | Al Basel
+- /developers/emaar/ → Emaar Projects & Property Advice | Al Basel
+- /developers/deyaar/ → Deyaar Projects & Property Advice | Al Basel
+- /communities/ → Explore Dubai Communities | Al Basel
+- /communities/dubai-hills-estate/ → Dubai Hills Estate Projects & Guide | Al Basel
+- /services/ → Dubai Real Estate Services | Al Basel
+- /services/property-sales/ → Property sales in Dubai | Al Basel
+- /services/leasing/ → Property leasing in Dubai | Al Basel
+- /services/off-plan-sales/ → Off-plan sales in Dubai | Al Basel
+- /services/property-management/ → Property Management in Dubai | Al Basel
+- /services/holiday-homes/ → Holiday home management in Dubai | Al Basel
+- /services/advertising/ → Property advertising in Dubai | Al Basel
+- /services/maintenance-supervision/ → Maintenance supervision in Dubai | Al Basel
+- /services/portfolio-management/ → Portfolio management in Dubai | Al Basel
+- /services/legal-documentation/ → Legal documentation support in Dubai | Al Basel
+- /contact/ → Contact Al Basel Real Estate Brokers, Dubai
+- /about/ → About Al Basel Real Estate Brokers
+- /team/ → Meet the Al Basel Property Team
+- /al-basel-group/ → Al Basel Group & Our Brokerage
+- /awards/ → Al Basel Awards: Emaar & Deyaar, 2014
+- /how-we-work/ → How Al Basel Works with Buyers & Owners
+- /ai-search-trust/ → How We Build Trust in AI Search | Al Basel
+- /privacy/ → Privacy & Enquiries | Al Basel
+- /verification/ → Licence & Property Verification | Al Basel
+- /guides/ → Dubai Property Guides for Buyers & Owners | Al Basel
+- /guides/buying-off-plan/ → Buying off-plan in Dubai, step by step | Al Basel
+- /guides/buying-costs-and-fees/ → Dubai property buying costs and fees | Al Basel
+- /guides/mortgages-in-dubai/ → Dubai mortgages: residents and non-residents | Al Basel
+- /guides/property-golden-visa/ → UAE Golden Visa through property | Al Basel
+- /guides/renting-in-dubai/ → Renting in Dubai: a practical checklist | Al Basel
+- /guides/property-handover/ → A Dubai property handover checklist | Al Basel
+- /guides/power-of-attorney/ → Power of attorney for overseas owners | Al Basel
+- /guides/holiday-home-rules/ → Preparing a Dubai holiday home | Al Basel
+- /guides/choosing-a-community/ → How to choose a Dubai community | Al Basel
+- /guides/selling-a-property/ → Selling a property in Dubai | Al Basel
+- /guides/service-charges/ → Understanding property service charges | Al Basel
+- /guides/viewing-checklist/ → What to check at a property viewing | Al Basel
+- /guides/overseas-buyers/ → A planning guide for overseas buyers | Al Basel
+- /guides/tenancy-renewal/ → Preparing for a tenancy renewal | Al Basel
+- /guides/investment-due-diligence/ → Property investment due diligence | Al Basel
+- /apartments-for-sale-dubai/ → Apartments for Sale in Dubai | Al Basel
+- /villas-for-sale-dubai/ → Villas for Sale in Dubai | Al Basel
+- /properties/ → Dubai Property Listings | Al Basel
+- /site-map/ → Website Directory | Al Basel
+
+Unverified: registration numbers, permits, agent BRNs, social accounts, live unit availability, current prices, handover and payment terms.

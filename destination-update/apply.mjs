@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+const root='C:/Users/Lopty/Desktop/App/tuwaiq-travel';
+const stage='C:/Users/Lopty/Desktop/App/abre2/destination-update';
+for(const file of ['BookingQuotePanel.tsx','DestinationBookingView.tsx'])await fs.copyFile(stage+'/'+file,root+'/src/components/'+file);
+let detail=await fs.readFile(root+'/src/components/DetailViews.tsx','utf8');
+const start=detail.indexOf('export function DestinationDetailView(');
+const end=detail.indexOf('export function ServiceDetailView(',start);
+if(start<0||end<0)throw Error('Destination route component not found');
+detail="import { DestinationBookingView } from './DestinationBookingView';\n"+detail.slice(0,start)+`export function DestinationDetailView({destination,breadcrumbs}:{destination:DestinationItem;breadcrumbs:BreadcrumbItem[]}) { return <DestinationBookingView destination={destination} breadcrumbs={breadcrumbs} />; }\n\n`+detail.slice(end);
+await fs.writeFile(root+'/src/components/DetailViews.tsx',detail);
+let pkg=await fs.readFile(root+'/src/components/PackageBookingView.tsx','utf8');
+const sidebarStart=pkg.indexOf('    <aside className="booking-sidebar"');
+const sidebarEnd=pkg.indexOf('    </aside>',sidebarStart);
+if(sidebarStart<0||sidebarEnd<0)throw Error('Package quote panel not found');
+pkg="import { BookingQuotePanel } from './BookingQuotePanel';\n"+pkg.slice(0,sidebarStart)+'    <BookingQuotePanel subject={pkg.name} price={pkg.priceAed} departed={departed} />\n'+pkg.slice(sidebarEnd+'    </aside>'.length);
+await fs.writeFile(root+'/src/components/PackageBookingView.tsx',pkg);
+await fs.appendFile(root+'/src/index.css',`\n/* Destination and package pages share the same booking layout and quote component. */\n.booking-destination-tagline{font-size:14px;line-height:1.8;color:var(--booking-muted);margin-top:17px;max-width:65ch}.booking-destination-highlights{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;padding:0;margin:25px 0 0;list-style:none}.booking-destination-highlights li{display:flex;align-items:start;gap:11px;padding:19px 0;border-bottom:1px solid var(--booking-line)}.booking-destination-highlights li>span{width:24px;height:24px;display:grid;place-items:center;flex-shrink:0;border-radius:50%;background:var(--booking-soft)}.booking-destination-highlights svg{width:12px;height:12px}.booking-destination-highlights strong{font-size:13px;line-height:1.8;font-weight:400;color:#5f675f}.booking-destination-packages{display:grid;grid-template-columns:1fr 1fr;gap:23px;margin-top:28px}.booking-section>.booking-contact-trigger{margin-top:23px}.booking-destination-links{display:grid;grid-template-columns:1fr 1fr;gap:0 30px;margin-top:25px}.booking-destination-links a{display:flex;align-items:center;gap:12px;padding:22px 0;border-bottom:1px solid var(--booking-line);font-size:13px}.booking-destination-links a>svg{width:15px;height:15px;color:var(--booking-muted)}.booking-destination-links a>svg:last-child{margin-left:auto}@media(max-width:500px){.booking-destination-tagline{font-size:13px}.booking-destination-highlights,.booking-destination-packages,.booking-destination-links{grid-template-columns:1fr}.booking-destination-highlights strong{font-size:12px}}\n`);
+console.log('Unified all destination and package pages on the latest booking layout and shared quote panel.');

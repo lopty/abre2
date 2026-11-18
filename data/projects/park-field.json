@@ -1,0 +1,20 @@
+{
+  "slug": "park-field",
+  "name": "Park Field",
+  "developer": "Emaar",
+  "community": "Dubai Hills Estate",
+  "type": "Apartment",
+  "bedrooms": "1, 2 & 3 bedroom apartments",
+  "image": "park-field.webp",
+  "tag": "Parkside living",
+  "description": "Two residential towers with apartments and a small collection of townhouses. Park Field connects apartment living with the open spaces of Dubai Hills Estate.",
+  "highlights": [
+    "Swimming pool and children's pool",
+    "Gym and shared spaces",
+    "Park-facing neighbourhood"
+  ],
+  "source": "https://www.emaar.com/en/properties/park-field",
+  "brokerSource": "https://albaselrealestate.ae/estate_property/park-field-emaar-dubai-hills-estate-dubai/",
+  "handover": null,
+  "paymentPlan": null
+}

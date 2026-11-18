@@ -1,0 +1,96 @@
+# SETUP REQUIRED: replace repo and OAuth base_url before using GitHub login.
+# See README.md. An external GitHub OAuth service is required for Decap on Render.
+backend:
+  name: github
+  repo: REPLACE_WITH_GITHUB_OWNER/REPLACE_WITH_REPOSITORY
+  branch: main
+  base_url: https://REPLACE_WITH_OAUTH_SERVICE
+publish_mode: simple
+media_folder: public/assets/uploads
+public_folder: /assets/uploads
+site_url: https://albaselrealestate.ae
+display_url: https://albaselrealestate.ae
+collections:
+  - name: projects
+    label: Project profiles
+    folder: data/projects
+    create: true
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - {label: Slug, name: slug, widget: string}
+      - {label: Name, name: name, widget: string}
+      - {label: Developer, name: developer, widget: select, options: [Emaar, Deyaar]}
+      - {label: Community, name: community, widget: string}
+      - {label: Type, name: type, widget: select, options: [Apartment, Villa, Townhouse]}
+      - {label: Home types, name: bedrooms, widget: string}
+      - {label: Image filename in assets, name: image, widget: string}
+      - {label: Short card label, name: tag, widget: string}
+      - {label: Description, name: description, widget: text}
+      - {label: Highlights, name: highlights, widget: list}
+      - {label: Background source, name: source, widget: string}
+      - {label: Brokerage source, name: brokerSource, widget: string, required: false}
+      - {label: Handover, name: handover, widget: string, required: false}
+      - {label: Payment plan, name: paymentPlan, widget: string, required: false}
+      - {label: Current developer launch, name: launch, widget: boolean, default: false}
+      - {label: Review date, name: reviewedAt, widget: string, required: false}
+  - name: business
+    label: Business facts
+    files:
+      - label: Contact and registration
+        name: business
+        file: data/business.json
+        fields:
+          - {label: Business name, name: name, widget: string}
+          - {label: Website URL, name: url, widget: string}
+          - {label: Display phone, name: phone, widget: string}
+          - {label: Phone link, name: phoneLink, widget: string}
+          - {label: WhatsApp digits, name: whatsapp, widget: string}
+          - {label: Email, name: email, widget: string}
+          - {label: Address, name: address, widget: string}
+          - {label: Parent organisation, name: parentOrganization, widget: string}
+          - {label: Group established, name: groupEstablished, widget: number}
+          - {label: Founder, name: founder, widget: string}
+          - {label: Brokerage ORN, name: orn, widget: string, required: false}
+          - {label: Trade licence, name: tradeLicence, widget: string, required: false}
+          - {label: Opening hours, name: openingHours, widget: string, required: false}
+          - {label: Social profile URLs, name: socialProfiles, widget: list}
+          - {label: Historical awards, name: awards, widget: list}
+          - {label: Sources, name: sources, widget: list}
+          - {label: Review date, name: reviewedAt, widget: string}
+  - name: properties
+    label: Properties
+    folder: data/properties
+    create: true
+    format: json
+    slug: '{{slug}}'
+    fields:
+      - {label: Slug, name: slug, widget: string}
+      - {label: Title, name: title, widget: string}
+      - label: Publication status
+        name: status
+        widget: select
+        options: [draft, published]
+        default: draft
+        hint: Publication requires all compliance fields and brokerage records. The build rejects incomplete published listings.
+      - {label: Purpose, name: purpose, widget: select, options: [buy, rent]}
+      - {label: Property type, name: type, widget: select, options: [Apartment, Villa, Townhouse]}
+      - {label: Community, name: community, widget: string}
+      - {label: Project, name: project, widget: string}
+      - {label: Developer, name: developer, widget: string}
+      - {label: Price in AED, name: price, widget: number, required: false, value_type: int}
+      - {label: Bedrooms, name: bedrooms, widget: number, required: false, value_type: int}
+      - {label: Bathrooms, name: bathrooms, widget: number, required: false, value_type: int}
+      - {label: Area in square feet, name: size, widget: number, required: false}
+      - {label: Description, name: description, widget: text}
+      - label: Images
+        name: images
+        widget: list
+        field: {label: Image, name: image, widget: image}
+      - {label: Floor plan, name: floorPlan, widget: image, required: false}
+      - {label: Trakheesi permit number, name: permitNumber, widget: string, required: false}
+      - {label: Official permit QR image, name: permitQr, widget: image, required: false}
+      - {label: Listing agent name, name: agentName, widget: string, required: false}
+      - {label: Listing agent BRN, name: agentBrn, widget: string, required: false}
+      - {label: Evidence source URL, name: source, widget: string}
+      - {label: Verification date, name: verifiedAt, widget: datetime, required: false}
