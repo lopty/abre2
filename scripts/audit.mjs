@@ -20,6 +20,8 @@ for(const page of pages){
  for(const nav of html.matchAll(/<nav\b[^>]*>([\s\S]*?)<\/nav>/g))if(/<button\b/.test(nav[1]))issues.push('Button navigation: '+page.route);
  const visible=text(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,''));
  if(/\u2014/.test(visible))issues.push('Em dash: '+page.route);
+ const leftover=visible.match(/\$\{|\bundefined\b|\bnull\b|\[object Object\]|\bNaN\b/);
+ if(leftover)issues.push(`Template leftover "${leftover[0]}": ${page.route}`);
  if(/\b(bespoke|curated|seamless|world-class|unparalleled)\b/i.test(visible))issues.push('Banned copy: '+page.route);
  let main=(html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)||[])[1]||'';
  main=main.replace(/<aside\b[^>]*>[\s\S]*?<\/aside>/g,'');

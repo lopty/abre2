@@ -1,0 +1,33 @@
+{
+  "slug": "demo-layla-mansour",
+  "status": "sample",
+  "demo": true,
+  "_help": "DEMO agent for design preview only. Delete this file before launch, or replace it with a real agent (status \"published\").",
+  "name": "Layla Mansour",
+  "title": "Leasing Manager",
+  "brn": "Demo",
+  "photo": "/assets/agents/demo/layla-mansour.webp",
+  "years": 8,
+  "languages": [
+    "English",
+    "Arabic"
+  ],
+  "specialties": [
+    "Leasing",
+    "Tenant search",
+    "Property management"
+  ],
+  "communities": [
+    "mina-rashid",
+    "dubai-marina",
+    "business-bay"
+  ],
+  "phone": "+971 52 443 5019",
+  "phoneLink": "+971524435019",
+  "whatsapp": "971524435019",
+  "email": "info@albaselrealestate.ae",
+  "bio": [
+    "Layla manages leasing for owners and helps tenants find homes, from the first viewing to the Ejari registration."
+  ],
+  "photoNote": "AI-generated headshot of a fictional person (Canva), demo only"
+}

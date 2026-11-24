@@ -13,11 +13,308 @@
 - /projects/greencrest/ → Greencrest, Dubai Hills Estate | Al Basel
 - /projects/hillsedge/ → Hillsedge, Dubai Hills Estate | Al Basel
 - /projects/fior-1/ → Fior 1, Mina Rashid | Al Basel
+- /projects/17-icon-bay/ → 17 Icon Bay, Dubai Creek Harbour | Al Basel
+- /projects/52-42/ → 52|42, Dubai Marina | Al Basel
+- /projects/acacia/ → Acacia, Dubai Hills Estate | Al Basel
+- /projects/act-one-act-two/ → Act One Act Two, Downtown Dubai | Al Basel
+- /projects/address-grand-downtown-dubai/ → Address Grand Downtown, Downtown Dubai | Al Basel
+- /projects/address-harbour-point/ → Address Harbour Point, Dubai Creek Harbour | Al Basel
+- /projects/address-residences-at-dubai-creek-harbour/ → Address Residences at Dubai Creek Harbour | Al Basel
+- /projects/address-residences-at-dubai-hills-estate/ → Address Residences, Dubai Hills Estate | Al Basel
+- /projects/address-residences-dubai-opera/ → Address Residences - Dubai Opera, Downtown Dubai | Al Basel
+- /projects/address-residences-the-bay/ → Address Residences the Bay, Emaar Beachfront | Al Basel
+- /projects/address-villas-hillcrest/ → Address Villas Hillcrest, Dubai Hills Estate | Al Basel
+- /projects/address-villas-tierra/ → Address Villas – Tierra, The Oasis by Emaar | Al Basel
+- /projects/aeon/ → Aeon, Dubai Creek Harbour | Al Basel
+- /projects/alana/ → Alana, The Valley | Al Basel
+- /projects/albero-at-dubai-creek-harbour/ → Albero, Dubai Creek Harbour | Al Basel
+- /projects/altan-at-dubai-creek-harbour/ → Altan, Dubai Creek Harbour | Al Basel
+- /projects/altus-at-dubai-creek-harbour/ → Altus, Dubai Creek Harbour | Al Basel
+- /projects/anya/ → Anya, Arabian Ranches 3 | Al Basel
+- /projects/anya-2/ → Anya 2, Arabian Ranches 3 | Al Basel
+- /projects/arlo-at-dubai-creek-harbour/ → Arlo, Dubai Creek Harbour | Al Basel
+- /projects/aseel/ → Aseel, Arabian Ranches | Al Basel
+- /projects/aurea-at-rashid-yachts-and-marina/ → Aurea At Rashid Yachts & Marina, Mina Rashid | Al Basel
+- /projects/avarra-by-palace-at-business-bay/ → Avarra by Palace, Downtown Dubai | Al Basel
+- /projects/avelia-at-the-valley/ → Avelia, The Valley | Al Basel
+- /projects/avena-2-at-the-valley/ → Avena 2, The Valley | Al Basel
+- /projects/avena-at-the-valley/ → Avena, The Valley | Al Basel
+- /projects/avonlea/ → Avonlea, Mina Rashid | Al Basel
+- /projects/bayline/ → Bayline, Mina Rashid | Al Basel
+- /projects/baystar-by-vida-at-rashid-yachts-marina/ → Baystar by Vida at Rashid Yachts & Marina | Al Basel
+- /projects/bayview-by-address-resorts/ → Bayview by Address Resorts, Emaar Beachfront | Al Basel
+- /projects/beach-isle/ → Beach Isle, Emaar Beachfront | Al Basel
+- /projects/beach-mansion/ → Beach Mansion, Emaar Beachfront | Al Basel
+- /projects/beach-vista/ → Beach Vista, Emaar Beachfront | Al Basel
+- /projects/beachgate-by-address/ → Beachgate by Address, Emaar Beachfront | Al Basel
+- /projects/bliss/ → Bliss, Arabian Ranches 3 | Al Basel
+- /projects/bliss-2/ → Bliss 2, Arabian Ranches 3 | Al Basel
+- /projects/blvd-crescent/ → BLVD Crescent, Downtown Dubai | Al Basel
+- /projects/boulevard-heights/ → Boulevard Heights, Downtown Dubai | Al Basel
+- /projects/boulevard-point/ → Boulevard Point, Downtown Dubai | Al Basel
+- /projects/burj-crown/ → Burj Crown, Downtown Dubai | Al Basel
+- /projects/caya/ → Caya, Arabian Ranches | Al Basel
+- /projects/caya-2/ → Caya 2, Arabian Ranches 3 | Al Basel
+- /projects/cedar/ → Cedar, Dubai Creek Harbour | Al Basel
+- /projects/chevalia-estate-2-at-grand-polo-club-and-resort/ → Chevalia Estate 2, Grand Polo Club & Resort | Al Basel
+- /projects/chevalia-estate-at-grand-polo/ → Chevalia Estate, Grand Polo Club & Resort | Al Basel
+- /projects/chevalia-fields-at-grand-polo/ → Chevalia Fields, Grand Polo Club & Resort | Al Basel
+- /projects/clearpoint/ → Clearpoint, Mina Rashid | Al Basel
+- /projects/club-drive/ → Club Drive, Dubai Hills Estate | Al Basel
+- /projects/club-place-at-dubai-hills-estate/ → Club Place, Dubai Hills Estate | Al Basel
+- /projects/collective-2/ → Collective 2.0, Dubai Hills Estate | Al Basel
+- /projects/creek-bay-at-dubai-creek-harbour/ → Creek Bay, Dubai Creek Harbour | Al Basel
+- /projects/creek-crescent/ → Creek Crescent, Dubai Creek Harbour | Al Basel
+- /projects/creek-edge/ → Creek Edge, Dubai Creek Harbour | Al Basel
+- /projects/creek-gate/ → Creek Gate, Dubai Creek Harbour | Al Basel
+- /projects/creek-haven-at-dubai-creek-harbour/ → Creek Haven, Dubai Creek Harbour | Al Basel
+- /projects/creek-horizon/ → Creek Horizon, Dubai Creek Harbour | Al Basel
+- /projects/creek-palace/ → Creek Palace, Dubai Creek Harbour | Al Basel
+- /projects/creek-rise/ → Creek Rise, Dubai Creek Harbour | Al Basel
+- /projects/creek-waters/ → Creek Waters, Dubai Creek Harbour | Al Basel
+- /projects/creek-waters-2/ → Creek Waters 2, Dubai Creek Harbour | Al Basel
+- /projects/creekside-18/ → Creekside 18, Dubai Creek Harbour | Al Basel
+- /projects/downtown-views-ii/ → Downtown Views II, Downtown Dubai | Al Basel
+- /projects/dubai-creek-residences/ → Dubai Creek Residences, Dubai Creek Harbour | Al Basel
+- /projects/dubai-hills-vista/ → Dubai Hills Vista, Dubai Hills Estate | Al Basel
+- /projects/eden/ → Eden, The Valley | Al Basel
+- /projects/elea-at-the-valley/ → Elea, The Valley | Al Basel
+- /projects/elora/ → Elora, The Valley | Al Basel
+- /projects/elva-at-the-valley/ → Elva, The Valley | Al Basel
+- /projects/elvira/ → Elvira, Dubai Hills Estate | Al Basel
+- /projects/emerald-hills/ → Emerald Hills, Dubai Hills Estate | Al Basel
+- /projects/equestra-at-grand-polo-club-and-resort/ → Equestra, Grand Polo Club & Resort | Al Basel
+- /projects/equiterra-2-at-grand-polo-club-and-resort/ → Equiterra 2, Grand Polo Club & Resort | Al Basel
+- /projects/equiterra-at-grand-polo-club-and-resort/ → Equiterra, Grand Polo Club & Resort | Al Basel
+- /projects/expo-golf-villas-6/ → Expo Golf Villas 6, Emaar South | Al Basel
+- /projects/expo-golf-villas-phase-iii/ → Expo Golf Villas - Phase III, Emaar South | Al Basel
+- /projects/expo-golf-villas-phase-iv/ → Expo Golf Villas - Phase IV, Emaar South | Al Basel
+- /projects/expo-golf-villas-phase-v/ → Expo Golf Villas - Phase V, Emaar South | Al Basel
+- /projects/fairway-villas/ → Fairway Villas, Emaar South | Al Basel
+- /projects/fairway-villas-2/ → Fairway Villas 2, Emaar South | Al Basel
+- /projects/fairway-villas-3/ → Fairway Villas 3, Emaar South | Al Basel
+- /projects/farm-gardens-2/ → Farm Gardens 2, The Valley | Al Basel
+- /projects/farm-grove-at-the-valley/ → Farm Grove, The Valley | Al Basel
+- /projects/forte/ → Forte, Downtown Dubai | Al Basel
+- /projects/golf-acres-at-emaar-south/ → Golf Acres, Emaar South | Al Basel
+- /projects/golf-dale-at-emaar-south/ → Golf Dale, Emaar South | Al Basel
+- /projects/golf-edge-at-emaar-south/ → Golf Edge, Emaar South | Al Basel
+- /projects/golf-fields-at-emaar-south/ → Golf Fields, Emaar South | Al Basel
+- /projects/golf-grand/ → Golf Grand, Dubai Hills Estate | Al Basel
+- /projects/golf-hills-2-at-emaar-south/ → Golf Hills 2, Emaar South | Al Basel
+- /projects/golf-hills-at-emaar-south/ → Golf Hills, Emaar South | Al Basel
+- /projects/golf-hillside-at-dubai-hills-estate/ → Golf Hillside, Dubai Hills Estate | Al Basel
+- /projects/golf-lane-at-emaar-south/ → Golf Lane, Emaar South | Al Basel
+- /projects/golf-links/ → Golf Links, Emaar South | Al Basel
+- /projects/golf-meadow-at-emaar-south/ → Golf Meadow, Emaar South | Al Basel
+- /projects/golf-place/ → Golf Place, Dubai Hills Estate | Al Basel
+- /projects/golf-place-ii/ → Golf Place II, Dubai Hills Estate | Al Basel
+- /projects/golf-place-terraces/ → Golf Place Terraces, Dubai Hills Estate | Al Basel
+- /projects/golf-point-at-emaar-south/ → Golf Point, Emaar South | Al Basel
+- /projects/golf-trails-at-emaar-south/ → Golf Trails, Emaar South | Al Basel
+- /projects/golf-vale-at-emaar-south/ → Golf Vale, Emaar South | Al Basel
+- /projects/golf-verge-at-emaar-south/ → Golf Verge, Emaar South | Al Basel
+- /projects/golf-views/ → Golf Views, Emaar South | Al Basel
+- /projects/grand-bleu-tower/ → Grand Bleu Tower, Emaar Beachfront | Al Basel
+- /projects/grande-signature-residences/ → Grande Signature Residences, Downtown Dubai | Al Basel
+- /projects/green-square/ → Green Square, Dubai Hills Estate | Al Basel
+- /projects/greenridge-at-emaar-south/ → Greenridge, Emaar South | Al Basel
+- /projects/greenside-residence/ → Greenside Residence, Dubai Hills Estate | Al Basel
+- /projects/greenspoint-at-emaar-south/ → Greenspoint, Emaar South | Al Basel
+- /projects/greenville-at-emaar-south/ → Greenville, Emaar South | Al Basel
+- /projects/greenway-2-at-emaar-south/ → Greenway 2, Emaar South | Al Basel
+- /projects/greenway-at-emaar-south/ → Greenway, Emaar South | Al Basel
+- /projects/grove/ → Grove, Dubai Creek Harbour | Al Basel
+- /projects/grove-ridge-at-emaar-south/ → Grove Ridge, Emaar South | Al Basel
+- /projects/harbour-gate/ → Harbour Gate, Dubai Creek Harbour | Al Basel
+- /projects/harbour-views/ → Harbour Views, Dubai Creek Harbour | Al Basel
+- /projects/hills-park/ → Hills Park, Dubai Hills Estate | Al Basel
+- /projects/il-primo/ → Il Primo, Downtown Dubai | Al Basel
+- /projects/joy/ → Joy, Arabian Ranches 3 | Al Basel
+- /projects/june/ → June, Arabian Ranches 3 | Al Basel
+- /projects/kaia-at-the-valley/ → Kaia, The Valley | Al Basel
+- /projects/lavita-at-the-oasis/ → Lavita at The Oasis, The Oasis by Emaar | Al Basel
+- /projects/lillia/ → Lillia, The Valley | Al Basel
+- /projects/lotus/ → Lotus, Dubai Creek Harbour | Al Basel
+- /projects/lyvia-by-palace-at-dubai-creek-harbour/ → Lyvia by Palace, Dubai Creek Harbour | Al Basel
+- /projects/mangrove-at-dubai-creek-harbour/ → Mangrove, Dubai Creek Harbour | Al Basel
+- /projects/maple/ → Maple, Dubai Hills Estate | Al Basel
+- /projects/mareva-2-at-the-oasis/ → Marèva 2 at The Oasis, The Oasis by Emaar | Al Basel
+- /projects/mareva-at-the-oasis/ → Marèva at The Oasis, The Oasis by Emaar | Al Basel
+- /projects/marina-cove-at-dubai-marina/ → Marina Cove, Dubai Marina | Al Basel
+- /projects/marina-place-1-at-rashid-yachts-marina/ → Marina Place 1 at Rashid Yachts & Marina | Al Basel
+- /projects/marina-place-2-at-rashid-yachts-marina/ → Marina Place 2 at Rashid Yachts & Marina | Al Basel
+- /projects/marina-shores/ → Marina Shores, Dubai Marina | Al Basel
+- /projects/marina-views-at-rashid-yachts-marina/ → Marina Views at Rashid Yachts & Marina | Al Basel
+- /projects/marina-vista/ → Marina Vista, Emaar Beachfront | Al Basel
+- /projects/may/ → May, Arabian Ranches 3 | Al Basel
+- /projects/mirage-at-the-oasis/ → Mirage at The Oasis, The Oasis by Emaar | Al Basel
+- /projects/montiva-by-vida-at-dubai-creek-harbour/ → Montiva by Vida, Dubai Creek Harbour | Al Basel
+- /projects/montura-2-at-grand-polo/ → Montura 2, Grand Polo Club & Resort | Al Basel
+- /projects/montura-3-at-grand-polo/ → Montura 3, Grand Polo Club & Resort | Al Basel
+- /projects/montura-at-grand-polo/ → Montura, Grand Polo Club & Resort | Al Basel
+- /projects/mulberry/ → Mulberry, Dubai Hills Estate | Al Basel
+- /projects/nara/ → Nara, The Valley | Al Basel
+- /projects/nima/ → Nima, The Valley | Al Basel
+- /projects/ocean-cove-at-rashid-yachts-marina/ → Ocean Cove at Rashid Yachts & Marina | Al Basel
+- /projects/ocean-point/ → Ocean Point, Mina Rashid | Al Basel
+- /projects/ocean-star-at-rashid-yachts-marina/ → Ocean Star at Rashid Yachts & Marina | Al Basel
+- /projects/opera-grand/ → Opera Grand, Downtown Dubai | Al Basel
+- /projects/orchid/ → Orchid, Dubai Creek Harbour | Al Basel
+- /projects/oria-at-dubai-creek-harbour/ → Oria, Dubai Creek Harbour | Al Basel
+- /projects/ovelle-at-the-valley/ → Ovelle, The Valley | Al Basel
+- /projects/palace-residences/ → Palace Residences, Dubai Creek Harbour | Al Basel
+- /projects/palace-residences-at-dubai-hills-estate/ → Palace Residences at Dubai Hills Estate | Al Basel
+- /projects/palace-residences-creek-blue/ → Palace Residences Creek Blue | Al Basel
+- /projects/palace-residences-hillside-at-dubai-hills-estate/ → Palace Residences Hillside, Dubai Hills Estate | Al Basel
+- /projects/palace-residences-hillside-b-at-dubai-hills-estate/ → Palace Residences Hillside - B | Al Basel
+- /projects/palace-residences-north/ → Palace Residences North, Dubai Creek Harbour | Al Basel
+- /projects/palace-villas-ostra-at-the-oasis/ → Palace Villas – Ostra at The Oasis | Al Basel
+- /projects/palm-hills/ → Palm Hills, Dubai Hills Estate | Al Basel
+- /projects/palmiera/ → Palmiera, The Oasis by Emaar | Al Basel
+- /projects/palmiera-2-at-the-oasis/ → Palmiera 2 at The Oasis, The Oasis by Emaar | Al Basel
+- /projects/palmiera-3-at-the-oasis/ → Palmiera 3 at The Oasis, The Oasis by Emaar | Al Basel
+- /projects/park-gate/ → Park Gate, Dubai Hills Estate | Al Basel
+- /projects/park-gate-2-at-dubai-hills-estate/ → Park Gate 2, Dubai Hills Estate | Al Basel
+- /projects/park-heights-i/ → Park Heights - I, Dubai Hills Estate | Al Basel
+- /projects/park-horizon/ → Park Horizon, Dubai Hills Estate | Al Basel
+- /projects/park-horizon-v2/ → Park Horizon V2, Dubai Hills Estate | Al Basel
+- /projects/park-lane/ → Park Lane, Dubai Hills Estate | Al Basel
+- /projects/park-point/ → Park Point, Dubai Hills Estate | Al Basel
+- /projects/park-ridge/ → Park Ridge, Dubai Hills Estate | Al Basel
+- /projects/parkland-at-dubai-hills-estate/ → Parkland, Dubai Hills Estate | Al Basel
+- /projects/parkside-hills/ → Parkside Hills, Dubai Hills Estate | Al Basel
+- /projects/parkside-views-residence/ → Parkside Views Residence, Dubai Hills Estate | Al Basel
+- /projects/parkwood-at-dubai-hills-estate/ → Parkwood, Dubai Hills Estate | Al Basel
+- /projects/pier-point-at-rashid-yachts-marina/ → Pier Point at Rashid Yachts & Marina | Al Basel
+- /projects/porto-view-at-rashid-yachts-marina/ → Porto View at Rashid Yachts & Marina | Al Basel
+- /projects/raya/ → Raya, Arabian Ranches 3 | Al Basel
+- /projects/rivana/ → Rivana, The Valley | Al Basel
+- /projects/rivera-at-the-valley-phase-2/ → Rivera, The Valley | Al Basel
+- /projects/rosehill-dubai-hills-estate/ → Rosehill, Dubai Hills Estate | Al Basel
+- /projects/rosewater/ → Rosewater, Dubai Creek Harbour | Al Basel
+- /projects/rove-city-walk/ → Rove City Walk, Downtown Dubai | Al Basel
+- /projects/ruba/ → Ruba, Arabian Ranches 3 | Al Basel
+- /projects/savanna/ → Savanna, Dubai Creek Harbour | Al Basel
+- /projects/seascape/ → Seascape, Mina Rashid | Al Basel
+- /projects/selvara-3-at-grand-polo-club-and-resort/ → Selvara 3, Grand Polo Club & Resort | Al Basel
+- /projects/selvara-4-at-grand-polo-club-and-resort/ → Selvara 4, Grand Polo Club & Resort | Al Basel
+- /projects/selvara-at-grand-polo-club-and-resort/ → Selvara, Grand Polo Club & Resort | Al Basel
+- /projects/sera-1-at-rashid-yachts-marinasera-1-at-rashid-yachts-and-marina/ → Sera 1 at Rashid Yachts & Marina, Mina Rashid | Al Basel
+- /projects/sera-2-at-rashid-yachts-and-marina/ → Sera 2 at Rashid Yachts & Marina, Mina Rashid | Al Basel
+- /projects/sidra/ → Sidra, Dubai Hills Estate | Al Basel
+- /projects/silva-dubai-creek-harbour/ → Silva - Dubai Creek Harbour, Dubai Creek Harbour | Al Basel
+- /projects/south-beach/ → South Beach, Emaar Beachfront | Al Basel
+- /projects/spring/ → Spring, Arabian Ranches 3 | Al Basel
+- /projects/srresidencesdubai/ → The St. Regis Residences, Downtown Dubai | Al Basel
+- /projects/sun/ → Sun, Arabian Ranches 3 | Al Basel
+- /projects/sunridge/ → Sunridge, Mina Rashid | Al Basel
+- /projects/sunrise-bay/ → Sunrise Bay, Emaar Beachfront | Al Basel
+- /projects/surf/ → Surf, Dubai Creek Harbour | Al Basel
+- /projects/talia/ → Talia, The Valley | Al Basel
+- /projects/terra-gardens-at-expo-living/ → Terra Gardens at Expo Living, Dubai South | Al Basel
+- /projects/terra-heights-at-expo-living/ → Terra Heights at Expo Living, Dubai South | Al Basel
+- /projects/terra-woods-at-expo-living/ → Terra Woods at Expo Living by Emaar, Dubai South | Al Basel
+- /projects/the-bristol-luxury-hotels-resorts-at-emaar-beachfront/ → The Bristol Luxury Hotels & Resorts | Al Basel
+- /projects/the-cove/ → The Cove, Dubai Creek Harbour | Al Basel
+- /projects/the-farm-gardens/ → The Farm Gardens, The Valley | Al Basel
+- /projects/the-residence-burj-khalifa/ → The Residence, Burj Khalifa, Downtown Dubai | Al Basel
+- /projects/urbana/ → Urbana, Emaar South | Al Basel
+- /projects/urbana-iii/ → Urbana III, Emaar South | Al Basel
+- /projects/valia-at-dubai-creek-harbour/ → Valia, Dubai Creek Harbour | Al Basel
+- /projects/valo-at-dubai-creek-harbour/ → Valo, Dubai Creek Harbour | Al Basel
+- /projects/velora-2-at-the-valley-phase-2/ → Velora 2, The Valley | Al Basel
+- /projects/velora-at-the-valley/ → Velora, The Valley | Al Basel
+- /projects/venera-at-the-valley/ → Venera, The Valley | Al Basel
+- /projects/vida-dubai-mall/ → Vida Residences Dubai Mall, Downtown Dubai | Al Basel
+- /projects/vida-residences/ → Vida Residences, Dubai Hills Estate | Al Basel
+- /projects/vida-residences-club-point-at-dubai-hills-estate/ → Vida Residences Club Point, Dubai Hills Estate | Al Basel
+- /projects/vida-residences-creek-beach/ → Vida Residences Creek Beach, Dubai Creek Harbour | Al Basel
+- /projects/vida-residences-dubai-marina/ → Vida Residences Dubai Marina, Dubai Marina | Al Basel
+- /projects/vida-residences-hillside/ → Vida Residences Hillside, Dubai Hills Estate | Al Basel
+- /projects/vindera-at-the-valley/ → Vindera, The Valley | Al Basel
+- /projects/vista-ridge-at-emaar-south/ → Vista Ridge, Emaar South | Al Basel
+- /projects/tria-by-deyaar/ → Tria, Dubai Silicon Oasis | Al Basel
+- /projects/regalia-by-deyaar/ → Regalia, Downtown Dubai | Al Basel
+- /projects/the-atria-by-deyaar/ → The Atria, Business Bay | Al Basel
+- /projects/millennium-talia-residences/ → Millennium Talia Residences, Al Furjan | Al Basel
+- /projects/mar-casa-by-deyaar/ → Mar Casa, Dubai Maritime City | Al Basel
+- /projects/jannat-midtown-by-deyaar/ → Jannat Midtown, Dubai Production City | Al Basel
+- /projects/shoreline-apartments/ → Shoreline Apartments, Palm Jumeirah | Al Basel
+- /projects/golden-mile-palm-jumeirah/ → Golden Mile, Palm Jumeirah | Al Basel
+- /projects/marina-residences-palm-jumeirah/ → Marina Residences, Palm Jumeirah | Al Basel
+- /projects/azure-residences/ → Azure Residences, Palm Jumeirah | Al Basel
+- /projects/palm-views/ → Palm Views, Palm Jumeirah | Al Basel
+- /projects/the-palm-tower/ → The Palm Tower, Palm Jumeirah | Al Basel
+- /projects/como-residences/ → Como Residences, Palm Jumeirah | Al Basel
+- /projects/palm-central-private-residences/ → Palm Central Private Residences, Palm Jumeirah | Al Basel
+- /projects/masakin-al-furjan/ → Masakin Al Furjan, Al Furjan | Al Basel
+- /projects/murooj-al-furjan/ → Murooj Al Furjan, Al Furjan | Al Basel
+- /projects/tilal-al-furjan/ → Tilal Al Furjan, Al Furjan | Al Basel
+- /projects/lagoon-views-district-one/ → Lagoon Views, District One | Al Basel
+- /communities/ → Dubai Communities Guide: 43 Areas | Al Basel
+- /communities/dubai-hills-estate/ → Dubai Hills Estate Homes & Area Guide | Al Basel
+- /communities/downtown-dubai/ → Downtown Dubai Homes & Area Guide | Al Basel
+- /communities/dubai-marina/ → Dubai Marina Homes & Area Guide | Al Basel
+- /communities/palm-jumeirah/ → Palm Jumeirah Homes & Area Guide | Al Basel
+- /communities/business-bay/ → Business Bay Homes & Area Guide | Al Basel
+- /communities/jumeirah-village-circle/ → Jumeirah Village Circle Homes & Area Guide | Al Basel
+- /communities/dubai-creek-harbour/ → Dubai Creek Harbour Homes & Area Guide | Al Basel
+- /communities/arabian-ranches/ → Arabian Ranches Homes & Area Guide | Al Basel
+- /communities/arabian-ranches-2/ → Arabian Ranches 2 Homes & Area Guide | Al Basel
+- /communities/arabian-ranches-3/ → Arabian Ranches 3 Homes & Area Guide | Al Basel
+- /communities/emaar-beachfront/ → Emaar Beachfront Homes & Area Guide | Al Basel
+- /communities/the-valley/ → The Valley Homes & Area Guide | Al Basel
+- /communities/emaar-south/ → Emaar South Homes & Area Guide | Al Basel
+- /communities/the-oasis/ → The Oasis by Emaar Homes & Area Guide | Al Basel
+- /communities/mina-rashid/ → Mina Rashid Homes & Area Guide | Al Basel
+- /communities/jumeirah-lake-towers/ → Jumeirah Lake Towers Homes & Area Guide | Al Basel
+- /communities/jumeirah-beach-residence/ → Jumeirah Beach Residence Homes & Area Guide | Al Basel
+- /communities/bluewaters-island/ → Bluewaters Island Homes & Area Guide | Al Basel
+- /communities/city-walk/ → City Walk Homes & Area Guide | Al Basel
+- /communities/jumeirah-golf-estates/ → Jumeirah Golf Estates Homes & Area Guide | Al Basel
+- /communities/damac-hills/ → DAMAC Hills Homes & Area Guide | Al Basel
+- /communities/damac-hills-2/ → DAMAC Hills 2 Homes & Area Guide | Al Basel
+- /communities/damac-lagoons/ → DAMAC Lagoons Homes & Area Guide | Al Basel
+- /communities/sobha-hartland/ → Sobha Hartland Homes & Area Guide | Al Basel
+- /communities/district-one/ → District One Homes & Area Guide | Al Basel
+- /communities/tilal-al-ghaf/ → Tilal Al Ghaf Homes & Area Guide | Al Basel
+- /communities/jumeirah-village-triangle/ → Jumeirah Village Triangle Homes & Area Guide | Al Basel
+- /communities/dubai-sports-city/ → Dubai Sports City Homes & Area Guide | Al Basel
+- /communities/motor-city/ → Motor City Homes & Area Guide | Al Basel
+- /communities/dubai-silicon-oasis/ → Dubai Silicon Oasis Homes & Area Guide | Al Basel
+- /communities/al-furjan/ → Al Furjan Homes & Area Guide | Al Basel
+- /communities/emirates-living/ → Emirates Living Homes & Area Guide | Al Basel
+- /communities/the-greens-and-views/ → The Greens and The Views Homes & Area Guide | Al Basel
+- /communities/dubai-festival-city/ → Dubai Festival City Homes & Area Guide | Al Basel
+- /communities/town-square/ → Town Square Dubai Homes & Area Guide | Al Basel
+- /communities/mudon/ → Mudon Homes & Area Guide | Al Basel
+- /communities/jumeirah-islands/ → Jumeirah Islands Homes & Area Guide | Al Basel
+- /communities/jumeirah-park/ → Jumeirah Park Homes & Area Guide | Al Basel
+- /communities/al-barsha/ → Al Barsha Homes & Area Guide | Al Basel
+- /communities/dubai-south/ → Dubai South Homes & Area Guide | Al Basel
+- /communities/dubai-maritime-city/ → Dubai Maritime City Homes & Area Guide | Al Basel
+- /communities/dubai-production-city/ → Dubai Production City Homes & Area Guide | Al Basel
+- /communities/grand-polo-club-and-resort/ → Grand Polo Club & Resort Homes & Area Guide | Al Basel
 - /developers/ → Dubai Property Developers | Al Basel
-- /developers/emaar/ → Emaar Projects & Property Advice | Al Basel
-- /developers/deyaar/ → Deyaar Projects & Property Advice | Al Basel
-- /communities/ → Explore Dubai Communities | Al Basel
-- /communities/dubai-hills-estate/ → Dubai Hills Estate Projects & Guide | Al Basel
+- /developers/emaar/ → Emaar Communities & Projects | Al Basel
+- /developers/deyaar/ → Deyaar Communities & Projects | Al Basel
+- /developers/nakheel/ → Nakheel Communities & Projects | Al Basel
+- /developers/meraas/ → Meraas Communities & Projects | Al Basel
+- /developers/dubai-properties/ → Dubai Properties Communities & Projects | Al Basel
+- /developers/damac/ → DAMAC Properties Communities & Projects | Al Basel
+- /developers/sobha/ → Sobha Realty Communities & Projects | Al Basel
+- /developers/meydan/ → Meydan Communities & Projects | Al Basel
+- /developers/majid-al-futtaim/ → Majid Al Futtaim Communities & Projects | Al Basel
+- /developers/al-futtaim/ → Al-Futtaim Communities & Projects | Al Basel
+- /developers/nshama/ → Nshama Communities & Projects | Al Basel
+- /developers/union-properties/ → Union Properties Communities & Projects | Al Basel
+- /developers/dmcc/ → DMCC Communities & Projects | Al Basel
+- /developers/dubai-south/ → Dubai South Communities & Projects | Al Basel
+- /developers/jumeirah-golf-estates/ → Jumeirah Golf Estates Communities & Projects | Al Basel
+- /developers/dubai-sports-city/ → Dubai Sports City Communities & Projects | Al Basel
+- /developers/dubai-silicon-oasis/ → Dubai Silicon Oasis Communities & Projects | Al Basel
+- /team/ → Meet the Al Basel Property Team
 - /services/ → Dubai Real Estate Services | Al Basel
 - /services/property-sales/ → Property sales in Dubai | Al Basel
 - /services/leasing/ → Property leasing in Dubai | Al Basel
@@ -30,7 +327,6 @@
 - /services/legal-documentation/ → Legal documentation support in Dubai | Al Basel
 - /contact/ → Contact Al Basel Real Estate Brokers, Dubai
 - /about/ → About Al Basel Real Estate Brokers
-- /team/ → Meet the Al Basel Property Team
 - /al-basel-group/ → Al Basel Group & Our Brokerage
 - /awards/ → Al Basel Awards: Emaar & Deyaar, 2014
 - /how-we-work/ → How Al Basel Works with Buyers & Owners

@@ -138,8 +138,13 @@
     };
   }
 
-  function waUrl(text) {
-    return 'https://wa.me/' + C.whatsapp + '?text=' + encodeURIComponent(text);
+  // number: the WhatsApp number from the clicked link (for example an agent's own number); defaults to the office.
+  function waUrl(text, number) {
+    return 'https://wa.me/' + (number || C.whatsapp) + '?text=' + encodeURIComponent(text);
+  }
+  function numberFromLink(href) {
+    var m = /wa\.me\/(\d{7,15})/.exec(href || '') || /[?&]phone=(\d{7,15})/.exec(href || '');
+    return m ? m[1] : '';
   }
 
   function composeMessage(f, waText) {
@@ -282,9 +287,16 @@
     writeJson('localStorage', CONTACT_KEY, { name: f.name, phone: f.phone, email: f.email });
     if (!isDuplicate(f.phone, clean(f.subject, 300))) saveLead(buildRecord(f, state.source));
 
-    var url = waUrl(composeMessage(f, state.waText));
+    var url = waUrl(composeMessage(f, state.waText), state.whatsapp);
     var done = dialog.querySelector('.sl-done');
     var tel = done.querySelector('[data-sl-tel]');
+    if (state.tel) {
+      tel.setAttribute('href', 'tel:' + state.tel);
+      tel.querySelector('strong').textContent = state.telDisplay || state.tel;
+    } else {
+      tel.setAttribute('href', 'tel:' + (C.phoneTel || ''));
+      tel.querySelector('strong').textContent = C.phoneDisplay || '';
+    }
     var waBtn = done.querySelector('[data-sl-wa]');
     waBtn.setAttribute('href', url);
     done.querySelector('[data-sl-thanks]').textContent = 'Thank you, ' + f.name.split(' ')[0] + '.';
@@ -313,7 +325,10 @@
       waText: opts.waText || '',
       source: opts.source || 'WhatsApp button',
       details: opts.details || {},
-      choose: Boolean(opts.choose)
+      choose: Boolean(opts.choose),
+      whatsapp: /^\d{7,15}$/.test(opts.whatsapp || '') ? opts.whatsapp : '',
+      tel: clean(opts.tel, 20),
+      telDisplay: clean(opts.telDisplay, 30)
     };
     form.reset();
     form.querySelector('[data-sl-submit]').innerHTML = '<span>' + (state.choose ? 'Continue' : 'Continue to WhatsApp') +
@@ -364,6 +379,7 @@
       subject: ds.leadSubject || subjectFromText(text),
       waText: text,
       source: ds.leadSource || buttonLabel(a, 'WhatsApp button'),
+      whatsapp: numberFromLink(a.href),
       details: {
         timeframe: ds.leadTimeframe || '',
         travellers: ds.leadTravellers || '',
@@ -381,7 +397,15 @@
     e.preventDefault();
     var parent = b.closest('dialog');
     if (parent && parent.open) parent.close();
-    open({ subject: b.getAttribute('data-lead-subject') || '', source: b.getAttribute('data-lead-source') || buttonLabel(b, 'Book button'), choose: true });
+    // Optional per-button contact (an agent's own WhatsApp and phone): data-lead-whatsapp, data-lead-tel, data-lead-tel-display.
+    open({
+      subject: b.getAttribute('data-lead-subject') || '',
+      source: b.getAttribute('data-lead-source') || buttonLabel(b, 'Book button'),
+      choose: true,
+      whatsapp: b.getAttribute('data-lead-whatsapp') || '',
+      tel: b.getAttribute('data-lead-tel') || '',
+      telDisplay: b.getAttribute('data-lead-tel-display') || ''
+    });
   });
 
   window.SiteLeads = { open: open, capture: capture, configured: configured };

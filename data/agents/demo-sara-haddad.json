@@ -1,0 +1,33 @@
+{
+  "slug": "demo-sara-haddad",
+  "status": "sample",
+  "demo": true,
+  "_help": "DEMO agent for design preview only. Delete this file before launch, or replace it with a real agent (status \"published\").",
+  "name": "Sara Haddad",
+  "title": "Senior Property Consultant",
+  "brn": "Demo",
+  "photo": "/assets/agents/demo/sara-haddad.webp",
+  "years": 9,
+  "languages": [
+    "English",
+    "Arabic",
+    "French"
+  ],
+  "specialties": [
+    "Off-plan Emaar launches",
+    "First-time buyers",
+    "Payment plans"
+  ],
+  "communities": [
+    "dubai-hills-estate",
+    "dubai-creek-harbour"
+  ],
+  "phone": "+971 52 443 5019",
+  "phoneLink": "+971524435019",
+  "whatsapp": "971524435019",
+  "email": "info@albaselrealestate.ae",
+  "bio": [
+    "Sara helps buyers compare new Emaar launches in Dubai Hills Estate and Dubai Creek Harbour, from the floor plan to the payment schedule."
+  ],
+  "photoNote": "AI-generated headshot of a fictional person (Canva), demo only"
+}

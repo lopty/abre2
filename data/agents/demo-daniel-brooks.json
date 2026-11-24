@@ -1,0 +1,32 @@
+{
+  "slug": "demo-daniel-brooks",
+  "status": "sample",
+  "demo": true,
+  "_help": "DEMO agent for design preview only. Delete this file before launch, or replace it with a real agent (status \"published\").",
+  "name": "Daniel Brooks",
+  "title": "Waterfront Specialist",
+  "brn": "Demo",
+  "photo": "/assets/agents/demo/daniel-brooks.webp",
+  "years": 10,
+  "languages": [
+    "English"
+  ],
+  "specialties": [
+    "Luxury apartments",
+    "Sea-view homes",
+    "Resale"
+  ],
+  "communities": [
+    "emaar-beachfront",
+    "palm-jumeirah",
+    "dubai-marina"
+  ],
+  "phone": "+971 52 443 5019",
+  "phoneLink": "+971524435019",
+  "whatsapp": "971524435019",
+  "email": "info@albaselrealestate.ae",
+  "bio": [
+    "Daniel focuses on beachfront and marina homes, comparing views, towers and building management for buyers who want to live by the water."
+  ],
+  "photoNote": "AI-generated headshot of a fictional person (Canva), demo only"
+}

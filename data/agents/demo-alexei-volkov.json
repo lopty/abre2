@@ -1,0 +1,33 @@
+{
+  "slug": "demo-alexei-volkov",
+  "status": "sample",
+  "demo": true,
+  "_help": "DEMO agent for design preview only. Delete this file before launch, or replace it with a real agent (status \"published\").",
+  "name": "Alexei Volkov",
+  "title": "Off-plan Consultant",
+  "brn": "Demo",
+  "photo": "/assets/agents/demo/alexei-volkov.webp",
+  "years": 6,
+  "languages": [
+    "English",
+    "Russian"
+  ],
+  "specialties": [
+    "Off-plan villas",
+    "New communities",
+    "Overseas buyers"
+  ],
+  "communities": [
+    "emaar-south",
+    "grand-polo-club-and-resort",
+    "the-oasis"
+  ],
+  "phone": "+971 52 443 5019",
+  "phoneLink": "+971524435019",
+  "whatsapp": "971524435019",
+  "email": "info@albaselrealestate.ae",
+  "bio": [
+    "Alexei advises overseas buyers on new villa communities such as Emaar South, Grand Polo Club & Resort and The Oasis."
+  ],
+  "photoNote": "AI-generated headshot of a fictional person (Canva), demo only"
+}

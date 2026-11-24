@@ -1,0 +1,4 @@
+{
+  "_help": "Assign any project to an agent: \"project-slug\": \"agent-slug\". The project slug is the last part of its page address (albaselrealestate.ae/projects/<project-slug>/). The agent must have a published file in data/agents/. Assigned projects show on the agent profile, and the project page shows that agent as the contact.",
+  "assignments": {}
+}
