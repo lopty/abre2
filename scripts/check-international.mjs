@@ -5,6 +5,7 @@ import {countries, articles, futureMarkets, sources} from '../data/international
 
 const routes=['/international-buyers/',...countries.map(c=>'/international-buyers/'+c.slug+'/'),...articles.map(a=>'/guides/'+a.slug+'/')];
 const sitemap=await fs.readFile('dist/sitemap.xml','utf8');
+assert.equal(await fs.readFile('dist/sitemap-pages.xml','utf8'),sitemap,'The direct pages sitemap must match the primary sitemap');
 assert.equal(countries.length,6);
 assert.equal(new Set([...countries.map(c=>c.name),...futureMarkets]).size,21);
 let whatsapp=0;
