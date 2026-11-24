@@ -148,13 +148,18 @@
   }
 
   function composeMessage(f, waText) {
-    var base = waText || (C.greeting || 'Hi, I am from your website.') + (f.subject ? '\nI would like to enquire about: ' + f.subject : '');
+    var base = C.kind === 'realestate'
+      ? (C.greeting || 'Hi Al Basel Real Estate. I am from the website.') + ' I need more info about ' + document.title.replace(/\s*\|\s*Al Basel.*$/i, '').replace(/[.]+$/, '') + '.\nPage: ' + location.origin + location.pathname + (f.subject ? '\nInterest: ' + f.subject : '')
+      : waText || (C.greeting || 'Hi, I am from your website.') + (f.subject ? '\nI would like to enquire about: ' + f.subject : '');
     var lines = [base, '', 'Name: ' + f.name];
     var labels = fieldLabels();
     ['interest', 'timeframe', 'travellers', 'budget', 'notes'].forEach(function (k) {
       var v = clean(f[k], 400);
       if (v && base.indexOf(v) === -1) lines.push(labels[k] + ': ' + v);
     });
+    if (f.country) lines.push('Country of residence: ' + f.country);
+    if (f.language) lines.push('Preferred language: ' + f.language);
+    if (f.callback) lines.push('Callback time and time zone: ' + f.callback);
     return lines.join('\n');
   }
 
@@ -219,9 +224,19 @@
     privacy.innerHTML = 'We keep these details so our team can follow up on your enquiry. We do not sell or share them.' +
       (C.privacyUrl ? ' <a href="' + C.privacyUrl + '">Privacy</a>' : '');
 
+    if (C.bookingPortrait) {
+      dialog.appendChild(el('div', { class: 'sl-host' }, [
+        el('img', { src: C.bookingPortrait, alt: 'Your Al Basel booking contact', width: '64', height: '64' }),
+        el('div', {}, [
+          el('span', { class: 'sl-host-label', text: 'PERSONAL PROPERTY ADVICE' }),
+          el('strong', { text: C.bookingLabel || 'Book with Al Basel' })
+        ])
+      ]));
+    }
+
     form.append(
       el('span', { class: 'sl-eyebrow', text: realEstate ? 'SPEAK WITH OUR PROPERTY TEAM' : 'YOUR NEXT TRIP STARTS HERE' }),
-      el('h2', { id: 'sl-title', text: realEstate ? 'A few details first.' : 'Your details, please.' }),
+      el('h2', { id: 'sl-title', text: realEstate ? 'Let’s plan your next move.' : 'Your details, please.' }),
       el('div', { class: 'sl-subject', hidden: '' }, [el('span', { text: realEstate ? 'Your enquiry' : 'You selected' }), el('strong', { 'data-sl-subject': '' })]),
       field('sl-name', 'Your name', el('input', { id: 'sl-name', name: 'name', type: 'text', required: '', minlength: '2', maxlength: '100', autocomplete: 'name' })),
       field('sl-phone', 'Phone number', el('input', { id: 'sl-phone', name: 'phone', type: 'tel', required: '', maxlength: '30', autocomplete: 'tel', inputmode: 'tel' })),
@@ -231,6 +246,25 @@
       el('button', { type: 'submit', class: 'sl-submit', 'data-sl-submit': '' }),
       privacy
     );
+
+    if (realEstate) {
+      var select = function (name, options) {
+        var node = el('select', { id: 'sl-' + name, name: name });
+        node.appendChild(el('option', { value: '', text: 'Select (optional)' }));
+        options.forEach(function (value) { node.appendChild(el('option', { value: value, text: value })); });
+        return node;
+      };
+      var buyerDetails = el('details', { class: 'sl-buyer-details', 'data-sl-buyer-details': '' }, [
+        el('summary', { text: 'Tell us about your plans (optional)' }),
+        field('sl-country', 'Country of residence', select('country', ['Algeria','Bahrain','Belgium','Brazil','Canada','China','Egypt','France','India','Japan','Kuwait','Morocco','Oman','Pakistan','Qatar','Russia','Saudi Arabia','Singapore','South Africa','Switzerland','United Arab Emirates','United States','Other'])),
+        field('sl-language', 'Preferred language', el('input', { id: 'sl-language', name: 'language', type: 'text', maxlength: '60', placeholder: 'For example, English or Arabic' }), 'We will confirm language availability.'),
+        field('sl-purpose', 'Main purpose', select('purpose', ['Investment','Second home','Relocation','Still exploring'])),
+        field('sl-budget', 'Approximate budget in AED', select('budget', ['Under AED 1 million','AED 1–2 million','AED 2–5 million','Over AED 5 million','Not decided'])),
+        field('sl-timeframe', 'Purchase timeframe', select('timeframe', ['Within 3 months','3–6 months','6–12 months','Still researching'])),
+        field('sl-callback', 'Preferred callback time and time zone', el('input', { id: 'sl-callback', name: 'callback', type: 'text', maxlength: '120', placeholder: 'For example, 6 pm Toronto time' }))
+      ]);
+      form.insertBefore(buyerDetails, form.querySelector('.sl-trap'));
+    }
 
     var arrow = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     var done = el('div', { class: 'sl-done', hidden: '' }, [
@@ -275,6 +309,14 @@
       notes: cleanMultiline(d.notes, 2000),
       subject: state.subject
     };
+    if (C.kind === 'realestate') {
+      f.country = clean(data.get('country'), 80);
+      f.language = clean(data.get('language'), 60);
+      f.callback = clean(data.get('callback'), 120);
+      f.interest = clean(data.get('purpose'), 100) || f.interest;
+      f.budget = clean(data.get('budget'), 100) || f.budget;
+      f.timeframe = clean(data.get('timeframe'), 120) || f.timeframe;
+    }
     if (f.name.length < 2) { showError('Please enter your name.'); form.querySelector('#sl-name').focus(); return; }
     if (f.phone.replace(/\D/g, '').length < 7 || !/^[+0-9 ()\-.]+$/.test(f.phone)) {
       showError('Please enter a valid phone number, including the country code.');
@@ -285,7 +327,10 @@
     showError('');
 
     writeJson('localStorage', CONTACT_KEY, { name: f.name, phone: f.phone, email: f.email });
-    if (!isDuplicate(f.phone, clean(f.subject, 300))) saveLead(buildRecord(f, state.source));
+    var record = buildRecord(f, state.source);
+    var buyerNotes = [f.country ? 'Country of residence: ' + f.country : '', f.language ? 'Preferred language: ' + f.language : '', f.callback ? 'Callback: ' + f.callback : ''].filter(Boolean);
+    if (buyerNotes.length) record.notes = [record.notes, buyerNotes.join('\n')].filter(Boolean).join('\n').slice(0, 2000);
+    if (!isDuplicate(f.phone, clean(f.subject, 300))) saveLead(record);
 
     var url = waUrl(composeMessage(f, state.waText), state.whatsapp);
     var done = dialog.querySelector('.sl-done');
@@ -331,6 +376,14 @@
       telDisplay: clean(opts.telDisplay, 30)
     };
     form.reset();
+    if (C.kind === 'realestate') {
+      var countryPage = document.querySelector('[data-buyer-country]');
+      var buyerDetails = form.querySelector('[data-sl-buyer-details]');
+      buyerDetails.open = false;
+      if (countryPage) form.elements.country.value = countryPage.getAttribute('data-buyer-country') || '';
+      form.elements.budget.value = state.details.budget || '';
+      form.elements.timeframe.value = state.details.timeframe || '';
+    }
     form.querySelector('[data-sl-submit]').innerHTML = '<span>' + (state.choose ? 'Continue' : 'Continue to WhatsApp') +
       '</span><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
     form.hidden = false;
@@ -352,6 +405,8 @@
 
   // ---------- Intercept WhatsApp links ----------
   function subjectFromText(text) {
+    var interest = /Interest:\s*(.+)/i.exec(text || '');
+    if (interest) return interest[1].trim();
     var m = /(?:enquire about:?|enquire about)\s*(.+?)(?:\.\s*$|\n|$)/i.exec(text || '');
     if (m) return m[1].trim();
     var p = /Planning:\s*(.+)/i.exec(text || '');

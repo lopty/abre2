@@ -315,6 +315,25 @@
 - /developers/dubai-sports-city/ → Dubai Sports City Communities & Projects | Al Basel
 - /developers/dubai-silicon-oasis/ → Dubai Silicon Oasis Communities & Projects | Al Basel
 - /team/ → Meet the Al Basel Property Team
+- /international-buyers/ → Dubai Property for International Buyers | Al Basel
+- /international-buyers/india/ → Buying Dubai Property from India | Al Basel
+- /international-buyers/saudi-arabia/ → Buying Dubai Property from Saudi Arabia | Al Basel
+- /international-buyers/france/ → Buying Dubai Property from France | Al Basel
+- /international-buyers/united-states/ → Buying Dubai Property from the US | Al Basel
+- /international-buyers/canada/ → Buying Dubai Property from Canada | Al Basel
+- /international-buyers/pakistan/ → Buying Dubai Property from Pakistan | Al Basel
+- /guides/india-funding-dubai-property/ → Funding a Dubai Property from India | Al Basel
+- /guides/india-family-dubai-property-brief/ → A Dubai Home Brief for Families in India | Al Basel
+- /guides/saudi-arabia-dubai-viewing-trip/ → A Dubai Viewing Trip from Saudi Arabia | Al Basel
+- /guides/saudi-arabia-dubai-second-home/ → A Dubai Second Home from Saudi Arabia | Al Basel
+- /guides/france-dubai-property-euro-budget/ → Budgeting in Euros for Dubai Property | Al Basel
+- /guides/france-dubai-remote-purchase-file/ → A Remote Dubai Purchase File from France | Al Basel
+- /guides/us-dubai-property-adviser-records/ → US Adviser Records for Dubai Property | Al Basel
+- /guides/us-dubai-property-long-distance-management/ → Managing Dubai Property from the US | Al Basel
+- /guides/canada-dubai-personal-use-rental/ → Dubai Personal Use or Rental from Canada | Al Basel
+- /guides/canada-dubai-property-cad-records/ → CAD Records for a Dubai Property Purchase | Al Basel
+- /guides/pakistan-dubai-property-funding/ → A Dubai Funding Checklist from Pakistan | Al Basel
+- /guides/pakistan-dubai-family-ownership/ → Family Dubai Ownership from Pakistan | Al Basel
 - /services/ → Dubai Real Estate Services | Al Basel
 - /services/property-sales/ → Property sales in Dubai | Al Basel
 - /services/leasing/ → Property leasing in Dubai | Al Basel

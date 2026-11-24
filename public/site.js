@@ -47,12 +47,12 @@ document.querySelectorAll('[data-contact-form]').forEach(form=>form.addEventList
   phoneInput.setCustomValidity(valid?'':'Please enter a valid phone number, including the country code.');
   if(!form.reportValidity()){phoneInput.addEventListener('input',()=>phoneInput.setCustomValidity(''),{once:true});return;}
  }
- const message=`Hi, I am from your website. My name is ${fields.get('name')}. I am interested in ${fields.get('interest')}. ${fields.get('message') || ''}`;
+ const message=`Hi Al Basel Real Estate. I am from the website. I need more info about ${document.title.replace(/\s*\|\s*Al Basel.*$/i,'').replace(/[.]+$/,'')}.\nPage: ${location.origin}${location.pathname}\nName: ${fields.get('name')}\nInterest: ${fields.get('interest')}\n${fields.get('message') || ''}`;
  if(window.SiteLeads){
   window.SiteLeads.capture({name:fields.get('name'),phone,email:fields.get('email'),interest:fields.get('interest'),notes:fields.get('message'),subject:'Contact form: '+fields.get('interest')},{waText:message,source:'contact-form'});
   return;
  }
- location.href='https://wa.me/971524435019?text='+encodeURIComponent(message);
+ location.href='https://wa.me/971529038948?text='+encodeURIComponent(message);
 }));
 const gallery=document.querySelector('[data-gallery]');
 if(gallery) {

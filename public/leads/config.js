@@ -8,10 +8,12 @@ window.SITE_LEADS = {
   site: 'albasel',
   siteName: 'Al Basel Real Estate',
   kind: 'realestate',
-  whatsapp: '971524435019',
-  greeting: 'Hi, I am from your website.',
-  phoneDisplay: '+971 52 443 5019',
-  phoneTel: '+971524435019',
+  bookingLabel: 'Book with Al Basel',
+  bookingPortrait: '/assets/al-basel-booking.webp',
+  whatsapp: '971529038948',
+  greeting: 'Hi Al Basel Real Estate. I am from the website.',
+  phoneDisplay: '+971529038948',
+  phoneTel: '+971529038948',
   privacyUrl: '/privacy/',
   sites: { tuwaiq: 'Tuwaiq Travel', albasel: 'Al Basel Real Estate' }
 };

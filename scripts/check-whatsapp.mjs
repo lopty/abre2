@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-const greeting='Hi, I am from your website.';
 for(const root of ['dist','C:/Users/Lopty/Desktop/App/tuwaiq-travel/dist']) {
+ const greeting=root==='dist'?'Hi Al Basel Real Estate. I am from the website. I need more info about ':'Hi, I am from your website.';
  let links=0;
  async function scan(directory){
   for(const entry of await fs.readdir(directory,{withFileTypes:true})){
