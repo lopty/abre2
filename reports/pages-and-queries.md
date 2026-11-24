@@ -333,6 +333,7 @@
 - /ai-search-trust/ → How We Build Trust in AI Search | Al Basel
 - /privacy/ → Privacy & Enquiries | Al Basel
 - /verification/ → Licence & Property Verification | Al Basel
+- /resources/indian-property-ownership-nri-uae/ → Indian Property Legal Help for UAE NRIs | Al Basel
 - /guides/ → Dubai Property Guides for Buyers & Owners | Al Basel
 - /guides/buying-off-plan/ → Buying off-plan in Dubai, step by step | Al Basel
 - /guides/buying-costs-and-fees/ → Dubai property buying costs and fees | Al Basel

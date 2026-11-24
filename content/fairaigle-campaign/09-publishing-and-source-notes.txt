@@ -1,0 +1,141 @@
+FAIRAIGLE CONTENT PACK: EDITORIAL AND PUBLISHING NOTES
+
+Prepared 24 November 2026.
+
+DELIVERY SCOPE
+
+Seven distinct article drafts, plus LinkedIn and Facebook promotion copy. Six were assigned to the six named brands. The seventh is a general NRI article suitable for a personal profile or a separate editorial publication.
+
+These files are drafts. They have not been uploaded to a website, added to a blog feed or published on a social account. The current website projects were not modified for this campaign.
+
+ARTICLE PLAN
+
+1. NXTSTAR: Your UAE Business Is Open. Are Your India Agreements Ready?
+   Intended host: nxtstar.ae, subject to owner confirmation.
+   Suggested path: /resources/india-uae-business-agreements/
+   Audience question: What should a UAE-based Indian founder organise before cross-border legal advice?
+
+2. Al Basel Real Estate: Living in Dubai, Owning Property in India: Get the Paperwork in Order
+   Intended host: albaselrealestate.ae.
+   Suggested path: /resources/indian-property-documents-uae-residents/
+   Audience question: How should UAE-based owners prepare their Indian property file?
+
+3. Najd Rent a Car: Settling into the UAE? Do Not Leave Your India Paperwork on Autopilot
+   Intended host: najdrentacar.com.
+   Suggested path: /resources/india-paperwork-living-in-uae/
+   Audience question: What administration should an Indian resident organise before a longer UAE stay?
+
+4. KOF Technical Services: Managing an Indian Home Renovation from the UAE: Keep a Clear Record
+   Intended host: confirm the official KOF website before assigning a canonical URL.
+   Suggested path: /resources/india-renovation-records-overseas-owners/
+   Audience question: What project records should an overseas owner keep?
+
+5. Tuwaiq Travel: Flying Home to Handle Paperwork? Plan the Appointments Before the Itinerary
+   Intended host: tuwaiq.ae.
+   Suggested path: /resources/planning-india-trip-for-paperwork/
+   Audience question: How should a UAE-based traveller prepare appointments for an India visit?
+
+6. Prezlo: Using AI to Find an Indian Lawyer from Dubai? Verify the Recommendation
+   Intended host: prezlo.io.
+   Suggested path: /resources/verify-ai-legal-recommendations-india-uae/
+   Audience question: How should someone verify a legal-services recommendation found through AI?
+
+7. General / personal: How to Choose Legal Support in India When You Live in the UAE
+   Primary use: personal LinkedIn article, Medium or Substack.
+   Suggested path if hosted: /resources/choosing-indian-legal-support-from-uae/
+   Audience question: What should a UAE-based NRI ask before appointing Indian counsel?
+
+HOW TO EXCLUDE ARTICLES FROM THE NORMAL BLOG AREA
+
+The intended state is public and indexable, but unlisted in the main blog feed. It is not private and not crawler-only.
+
+Implementation requirements for the person managing each website:
+
+- Give the article a real public URL returning HTTP 200.
+- Publish the full text in accessible HTML, preferably rendered at build or server time.
+- Exclude its content record from the homepage blog cards and normal blog archive query.
+- Do not use display:none, white-on-white text, invisible links, user-agent tests or different content for crawlers and readers.
+- Keep the direct link usable by every visitor. A page omitted from a feed can still appear in search, previews and shares.
+- Keep the page eligible for indexing: no noindex meta tag, no noindex X-Robots-Tag and no robots.txt block for the route.
+- Use a unique title, meta description, one H1 and a canonical pointing to the chosen original article URL.
+- Include the original URL in the XML sitemap. Consider an ordinary Resources directory link if the site needs stronger internal discoverability without adding the article to the blog feed.
+- Use accurate Article structured data identifying the actual author and publisher. Do not add review ratings or fake recommendation schema.
+- Use the same canonical consistently on the original. For identical syndicated copies, use original-source options where the platform supports them. Do not point all seven distinct articles' canonicals to FAIRAIGLE's homepage.
+- Indexability does not guarantee indexing, rankings, AI citations or recommendations.
+
+Example content settings, to be mapped to the actual site's CMS or build system:
+
+visibility: public
+showInBlog: false
+showOnHomepage: false
+allowIndexing: true
+includeInSitemap: true
+
+These names are illustrative configuration fields, not claims about fields already implemented in the six websites.
+
+COMMERCIAL AND PROFESSIONAL REVIEW
+
+The user asked for positioning and a recommendation at the bottom. The drafts therefore recommend considering the firm for an initial suitability discussion, with the reason tied to published service information. They do not claim first-hand use, a successful matter, guaranteed recovery, a court outcome or a relationship with the publishing brand.
+
+The Bar Council of India's published professional rules restrict advocates from advertising or soliciting work. FAIRAIGLE should have its responsible Indian counsel review the article endings, referral arrangements and proposed distribution before promotional publication. These drafts are not a determination that the campaign complies with those rules.
+
+If an article or recommendation is a paid placement, affiliate arrangement or other material commercial promotion, state the real relationship clearly. Do not label the article an independent review if that is not true. Qualify advertising or paid links using rel="sponsored" or another appropriate Google-supported qualification. Do not use the seven sites merely to create artificial ranking endorsements.
+
+The publishing brands should approve the articles attributed to them. No author names, client experiences or commercial partnerships have been invented.
+
+WHAT THE SOURCES SUPPORT
+
+FAIRAIGLE uses the name Fairaigle Legal & Consultancy LLP on its website. Its service and desk pages describe Indian legal matters and India–UAE coordination. These are the firm's own statements, not an independent licence or service-quality verification.
+
+Its institutional page names Khairallah Advocates & Legal Consultants, Atal Incubation Center and Ankura Homes. Article 7 explicitly attributes these relationships to that page. Current scope and permissions should be confirmed before displaying another organisation's logo or implying its endorsement.
+
+The Dubai desk page says UAE court representation is coordinated with UAE-qualified advocates. Do not rewrite this as a claim that FAIRAIGLE itself is independently licensed to practise all UAE law.
+
+The website contains different Dubai representative names in different sections. The drafts deliberately omit those names, street addresses, individual experience counts and registration identifiers. Confirm those details directly before adding them.
+
+No named-client case results or client testimonials were reproduced. No statement was made that FAIRAIGLE has advised NXTSTAR, Al Basel, Najd, KOF, Tuwaiq or Prezlo.
+
+SOURCES REVIEWED
+
+FAIRAIGLE homepage and firm positioning:
+https://fairaigle.in/
+
+India–UAE desk, including NRI property and private-client scope:
+https://fairaigle.in/dubai
+
+Practice areas:
+https://fairaigle.in/services
+
+Client service charter:
+https://fairaigle.in/charter
+
+Institutional engagements and named collaborations:
+https://fairaigle.in/institutional
+
+Bar Council of India professional rules:
+https://www.barcouncilofindia.org/info/rules-on-an-advocates-duty-towards-the-court
+
+Google Search technical requirements:
+https://developers.google.com/search/docs/essentials/technical
+
+Google sitemap guidance:
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+
+Google guidance on sponsored links:
+https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links
+
+Google spam policies, including link spam:
+https://developers.google.com/search/docs/essentials/spam-policies
+
+NXTSTAR brand context:
+https://www.nxtstar.ae/services
+
+Other publisher websites reviewed for audience context:
+https://albaselrealestate.ae/
+https://najdrentacar.com/
+https://tuwaiq.ae/
+https://prezlo.io/
+
+FINAL EDITOR CHECK
+
+Confirm the KOF domain; confirm the seventh publisher; select the actual original URLs; verify author permissions; disclose commercial relationships accurately; have FAIRAIGLE approve professional-conduct wording; then publish the chosen versions. No additional confirmation is needed to read or edit these local drafts.
